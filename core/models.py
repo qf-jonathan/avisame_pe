@@ -18,9 +18,9 @@ class Publication(models.Model):
     latitude = models.DecimalField(decimal_places=10, max_digits=16, null=True, blank=True)
     longitude = models.DecimalField(decimal_places=10, max_digits=16, null=True, blank=True)
     altitude = models.DecimalField(decimal_places=10, max_digits=16, null=True, blank=True)
-    publication_creation = models.DateTimeField()
-    publication_begin = models.DateTimeField()
-    publication_end = models.DateTimeField(null=True, blank=True)
+    creation_date = models.DateTimeField()
+    begin_date = models.DateTimeField()
+    end_date = models.DateTimeField(null=True, blank=True)
     description = models.TextField(null=True, blank=True)
     active = models.BooleanField(default=True)
 
