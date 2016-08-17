@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avisame.Pe</title>
+    <link href="{% static "node_modules/bootstrap/dist/css/bootstrap.css" %}"/>
+    <script src="{% static "node_modules/angular/angular.js" %}"></script>
+    <script src="{% static "node_modules/angular-animate/angular-animate.js" %}"></script>
+    <script src="{% static "node_modules/angular-touch/angular-touch.js" %}"></script>
+    <script src="{% static "node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js" %}"></script>
+</head>
+<body ng-app="home.avisame.pe">
+<div ng-controller="main"></div>
+<script src="{% static "homepage/js/app.js" %}"></script>
+<script src="{% static "homepage/js/controllers/main.js" %}"></script>
+</body>
+</html>
