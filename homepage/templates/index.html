@@ -3,8 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avisame.Pe</title>
-    <link href="{% static "node_modules/bootstrap/dist/css/bootstrap.css" %}"/>
+    <link rel="stylesheet" href="{% static "node_modules/bootstrap/dist/css/bootstrap.css" %}"/>
+    <link rel="stylesheet" href="{% static "homepage/css/main.css" %}"/>
     <script src="{% static "node_modules/angular/angular.js" %}"></script>
     <script src="{% static "node_modules/angular-route/angular-route.js" %}"></script>
     <script src="{% static "node_modules/angular-animate/angular-animate.js" %}"></script>
@@ -12,7 +14,7 @@
     <script src="{% static "node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js" %}"></script>
 </head>
 <body ng-app="homepage.avisame.pe">
-<div ng-view></div>
+<div ng-view class="container"></div>
 <script src="{% static "homepage/js/app.js" %}"></script>
 <script src="{% static "homepage/js/controllers/main.js" %}"></script>
 </body>
