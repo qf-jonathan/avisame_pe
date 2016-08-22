@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    
+
     angular
         .module('homepage.avisame.pe', [
             'ngRoute'
@@ -12,10 +12,15 @@
             .when('/', {
                 templateUrl: '/static/homepage/templates/main-template.html',
                 controller: 'mainController',
-                controllerAs: 'vm'
+                controllerAs: 'apc'
             })
             .when('/test', {
                 templateUrl: '/static/homepage/templates/test-template.html'
+            })
+            .when('/jesus', {
+                templateUrl: '/static/homepage/templates/jesus.html',
+                controller: 'jesusController',
+                controllerAs: 'apc'
             });
     }
 })();

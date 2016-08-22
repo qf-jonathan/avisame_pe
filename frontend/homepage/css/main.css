@@ -1,3 +1,50 @@
-.ap-navbar {
+.ap-no-radius {
     border-radius: 0;
+}
+
+.ap-search, .ap-search-dropdown {
+    height: 50px;
+    border: 1px solid #1b87f6;
+}
+
+.ap-search {
+    border-right: none;
+    background: white;
+    box-shadow: none;
+}
+
+.ap-search-dropdown {
+    background: linear-gradient(to bottom right, #1271ef, #1047e8);
+    color: white;
+}
+
+.ap-search-icon {
+    border-left: none;
+    border-right: none;
+    background: white;
+    border-color: #1b87f6;
+    color: #1b87f6;
+}
+
+.ap-navbar {
+    background: #444851;
+    border: none;
+}
+
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #444851;
+    border-left-color: #7e838c;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+    }
 }
