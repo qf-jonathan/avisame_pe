@@ -48,3 +48,43 @@
         display: none;
     }
 }
+
+.img-alt {
+    height: 120px;
+}
+
+.tit-alt {
+    height: 25px;
+}
+
+.des-height {
+       height: 90px;
+}
+
+.tit-alt p {
+    margin-left: 0px;
+    padding-left: 0px;
+    font-family: sans-serif;
+    font-size: 160%;
+    font-style: normal;
+}
+
+.des-height p {
+    margin: 0px;
+    color: #b3b3b3;
+    font-size: 101%;
+}
+
+.red-soc-heigth {
+    height: 45px;
+    border-top: 1px solid #369;
+    border-bottom: 1px solid #2aabd2;
+}
+.red-soc-heigth div {
+    /*height: 45px;*/
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+
+}
+
+
