@@ -17,21 +17,59 @@
     </div>
 </nav>
 
+<ap-search></ap-search>
+
 <div class="row">
-    <div class="col-sm-6">
-        AQUÍ VA LAS OPCIONES DE FILTRO
-    </div>
-    <div class="col-sm-6">
-        <form>
-            <div class="input-group">
-                <input type="text" class="form-control ap-no-radius ap-search" placeholder="Buscar">
-                <span class="input-group-addon ap-no-radius ap-search-icon">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                </span>
-                <span class="input-group-addon ap-no-radius ap-search-dropdown">
-                    <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-                </span>
-            </div>
-        </form>
+    <div class="col-sm-12">
+
     </div>
 </div>
+
+<script type="text/ng-template" id="/search-template.html">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ap-search-option color="#87B318" icon="folder-close">a</ap-search-option>
+                    <ap-search-option color="#FFAB03" icon="map-marker">b</ap-search-option>
+                    <ap-search-option color="#E7464E" icon="picture">c</ap-search-option>
+                    <ap-search-option color="#18B8B8" icon="calendar">d</ap-search-option>
+                    <ap-search-option color="#555964" icon="tasks">e</ap-search-option>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="ap-search-social-fb">
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/"
+                             data-layout="button_count" data-action="like" data-show-faces="true"
+                             data-share="true">
+                        </div>
+                    </div>
+                    <div class="ap-search-social-twitter">
+                        <a class="twitter-follow-button"
+                           href="https://twitter.com/TwitterDev">
+                            Seguir
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control ap-no-radius ap-search" placeholder="Buscar">
+                            <div class="input-group-addon ap-no-radius ap-search-icon">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </div>
+                            <div class="input-group-addon ap-no-radius ap-search-dropdown">
+                                <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

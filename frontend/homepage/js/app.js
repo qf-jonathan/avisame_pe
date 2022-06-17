@@ -3,7 +3,8 @@
 
     angular
         .module('homepage.avisame.pe', [
-            'ngRoute'
+            'ngRoute',
+            'services.avisame.pe'
         ])
         .config(config);
 
